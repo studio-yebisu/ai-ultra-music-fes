@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ja" data-stage="relay" data-hall="day" data-motion="on" data-transport="idle">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI ULTRA MUSICFES 2026 / 響鳴電脳祭 / 東京湾岸特設ドーム</title>
+  <meta name="description" content="AI ULTRA MUSICFES 2026 響鳴電脳祭。東京湾岸特設ドーム、2026.11.23 MON / 24 TUE。題字で四つの舞台を選局し、実音源とタイムテーブルを確かめるフェスティバルポスター。">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" id="theme-color" content="#F3EEE3">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2315120F'/%3E%3Crect x='4' y='4' width='24' height='24' fill='%23EE4B2B'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23F3EEE3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles/festival.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">SKIP TO POSTER</a>
+
+  <div class="sheet">
+    <header class="proof-bar" id="proof-bar">
+      <div class="tombo-row" aria-hidden="true">
+        <span class="tombo tombo--tl"></span>
+        <span class="tombo-center"></span>
+        <span class="tombo tombo--tr"></span>
+      </div>
+      <div class="utility-bar">
+        <div id="contrast-bar" class="contrast-bar" role="group" aria-label="Live WCAG 2.1 contrast color bar">
+          <span class="cb-swatch" data-token="--bg"><i class="cb-chip" aria-hidden="true"></i><span class="cb-name">BG</span><code class="cb-hex">…</code></span>
+          <span class="cb-swatch" data-token="--fg"><i class="cb-chip" aria-hidden="true"></i><span class="cb-name">FG</span><code class="cb-hex">…</code></span>
+          <span class="cb-swatch" data-token="--accent"><i class="cb-chip" aria-hidden="true"></i><span class="cb-name">INK</span><code class="cb-hex">…</code></span>
+          <span class="cb-swatch" data-token="--accent-fg"><i class="cb-chip" aria-hidden="true"></i><span class="cb-name">TEXT</span><code class="cb-hex">…</code></span>
+          <span class="cb-ratio" data-pair="bg-fg"><span>BG/FG</span> <span class="cb-value">…</span> <span class="cb-grade"></span></span>
+          <span class="cb-ratio" data-pair="ink-text"><span>INK/TEXT</span> <span class="cb-value">…</span> <span class="cb-grade"></span></span>
+        </div>
+        <p id="font-proof-stamp" class="font-stamp" role="status" data-status="checking">FONTS CHECKING</p>
+        <div class="utility-toggles" role="group" aria-label="Sheet controls">
+          <button id="motion-toggle-btn" class="lamp-key" type="button" aria-pressed="true">MOTION ON</button>
+          <button id="hall-toggle-btn" class="lamp-key" type="button" aria-pressed="false">LIGHT DAY</button>
+          <button id="sfx-toggle-btn" class="lamp-key" type="button" aria-pressed="true">SFX ON</button>
+          <button id="colophon-open-btn" class="lamp-key lamp-key--plain" type="button" aria-haspopup="dialog">COLOPHON</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero-poster" id="poster" aria-labelledby="festival-title">
+        <div class="kanji-rail" id="kanji-rail" role="group" aria-label="題字で選局 Stage tuner">
+          <div class="rail-keys">
+            <p class="rail-cap" aria-hidden="true">選局</p>
+            <button class="rail-kanji" id="rail-btn-relay" type="button" data-stage-id="relay" data-sfx-hover="1" aria-pressed="true" aria-keyshortcuts="1">
+              <span class="rail-num">01</span>
+              <span class="rail-glyph" lang="ja">響</span>
+              <span class="rail-code">KYŌ</span>
+              <span class="sr-only">Relay Gate</span>
+            </button>
+            <button class="rail-kanji" id="rail-btn-kiln" type="button" data-stage-id="kiln" data-sfx-hover="1.12" aria-pressed="false" aria-keyshortcuts="2">
+              <span class="rail-num">02</span>
+              <span class="rail-glyph" lang="ja">鳴</span>
+              <span class="rail-code">MEI</span>
+              <span class="sr-only">Kiln 303</span>
+            </button>
+            <button class="rail-kanji" id="rail-btn-tidal" type="button" data-stage-id="tidal" data-sfx-hover="1.26" aria-pressed="false" aria-keyshortcuts="3">
+              <span class="rail-num">03</span>
+              <span class="rail-glyph" lang="ja">電</span>
+              <span class="rail-code">DEN</span>
+              <span class="sr-only">Tidal Glass</span>
+            </button>
+            <button class="rail-kanji" id="rail-btn-lasttrain" type="button" data-stage-id="lasttrain" data-sfx-hover="1.41" aria-pressed="false" aria-keyshortcuts="4">
+              <span class="rail-num">04</span>
+              <span class="rail-glyph" lang="ja">脳</span>
+              <span class="rail-code">NŌ</span>
+              <span class="sr-only">Last Train</span>
+            </button>
+            <button class="rail-kanji" id="rail-btn-sai" type="button" data-stage-id="sai" data-sfx-hover="0.84" aria-pressed="false" aria-keyshortcuts="5">
+              <span class="rail-num">ALL</span>
+              <span class="rail-glyph" lang="ja">祭</span>
+              <span class="rail-code">SAI</span>
+              <span class="sr-only">All stages and timetable</span>
+            </button>
+          </div>
+          <p class="rail-slug" id="rail-slug" aria-hidden="true">STAGE 01 / RELAY GATE</p>
+        </div>
+
+        <div class="poster" id="poster-field">
+          <div class="poster-stage">
+            <div class="poster-copy">
+              <p class="poster-slug"><span lang="ja">響鳴電脳祭</span><span class="poster-reading" lang="ja">きょうめいでんのうさい</span></p>
+              <h1 class="lockup" id="festival-title">
+                <span class="lockup-line lockup-line--ai">AI ULTRA</span>
+                <span class="lockup-line lockup-line--fes">MUSICFES</span>
+                <span class="lockup-line lockup-line--year">2026</span>
+              </h1>
+              <p class="venue">
+                <span class="venue-name" lang="ja">東京湾岸特設ドーム</span>
+                <span class="venue-dates">2026.11.23 MON / 24 TUE</span>
+              </p>
+              <div class="billing" id="hero-billing">
+                <p class="billing-stage">
+                  <span class="chip chip--plate" id="hero-stage-chip">STAGE 01</span>
+                  <span id="hero-stage-name">響 KYŌ / Relay Gate</span>
+                </p>
+                <h2 class="billing-artist">
+                  <span class="billing-artist-ja" id="hero-artist-ja" lang="ja">火花ナナ</span>
+                  <span class="billing-artist-en" id="hero-artist-en">Hibana Nana</span>
+                </h2>
+                <p class="billing-role" id="hero-role">Vocals / Keytar Relay / Cyber J-Pop</p>
+                <p class="billing-stamps">
+                  <span class="stamp" id="hero-set-time">20:00 - 20:40 JST</span>
+                  <span class="stamp" id="hero-bpm">BPM 128.0</span>
+                  <span class="stamp" id="hero-key">KEY F minor</span>
+                </p>
+              </div>
+              <div class="cta-row">
+                <button id="hero-play-btn" class="cta" type="button">
+                  <span class="cta-icon" aria-hidden="true">
+                    <svg class="ico ico-play" viewBox="0 0 16 16" focusable="false"><path d="M3 1.5v13l11-6.5z"/></svg>
+                    <svg class="ico ico-pause" viewBox="0 0 16 16" focusable="false"><path d="M3 2h4v12H3zM9 2h4v12H9z"/></svg>
+                  </span>
+                  <span class="cta-text">
+                    <span class="cta-main" id="hero-play-label">LISTEN / PLAY NOW</span>
+                    <span class="cta-sub" id="hero-play-sub">01 響 KYŌ · BPM 128.0</span>
+                  </span>
+                </button>
+                <div class="cta-steps" role="group" aria-label="Step through stages">
+                  <button id="hero-prev-btn" class="key" type="button" data-sfx-hover="0.9">
+                    <svg class="ico" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 2h2.5v12H2zM14 2v12L5.5 8z"/></svg>
+                    <span>PREV</span><span class="sr-only">stage</span>
+                  </button>
+                  <button id="hero-next-btn" class="key" type="button" data-sfx-hover="1.1">
+                    <span>NEXT</span><span class="sr-only">stage</span>
+                    <svg class="ico" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M11.5 2H14v12h-2.5zM2 2l8.5 6L2 14z"/></svg>
+                  </button>
+                </div>
+                <p class="key-hint" aria-hidden="true">RAIL KEYS 1-5 / UP DOWN</p>
+              </div>
+              <p class="cta-status" id="hero-audio-status" role="status"></p>
+            </div>
+
+            <div class="lock-wrap">
+              <div class="character-lock halftone" id="character-lock">
+                <canvas id="hero-back-canvas" width="1000" height="1250" aria-hidden="true"></canvas>
+                <span class="plate-kanji" id="hero-plate-kanji" aria-hidden="true" lang="ja">響</span>
+                <img id="hero-character-img" width="1000" height="1250" alt="" decoding="async" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1250' viewBox='0 0 1000 1250'/%3E">
+                <canvas id="hero-mask-canvas" width="1000" height="1250" aria-hidden="true"></canvas>
+                <canvas id="hero-wipe-canvas" width="1000" height="1250" aria-hidden="true"></canvas>
+              </div>
+              <p class="stage-tag" id="hero-stage-tag" aria-hidden="true">RELAY GATE</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="transport-band" class="transport" role="region" aria-label="Broadcast transport and DJ strip" data-dj="closed">
+        <div class="tp-main">
+          <button id="transport-play-btn" class="tp-btn tp-btn--play" type="button" aria-pressed="false" aria-label="PLAY">
+            <svg class="ico ico-play" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 1.5v13l11-6.5z"/></svg>
+            <svg class="ico ico-pause" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 2h4v12H3zM9 2h4v12H9z"/></svg>
+          </button>
+          <button id="transport-prev-btn" class="tp-btn" type="button" aria-label="PREVIOUS TRACK">
+            <svg class="ico" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 2h2.5v12H2zM14 2v12L5.5 8z"/></svg>
+          </button>
+          <button id="transport-next-btn" class="tp-btn" type="button" aria-label="NEXT TRACK">
+            <svg class="ico" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M11.5 2H14v12h-2.5zM2 2l8.5 6L2 14z"/></svg>
+          </button>
+          <p class="tp-now">
+            <span class="tp-tally" id="transport-tally">STANDBY</span>
+            <span class="tp-now-stage" id="transport-now-stage">01 響 KYŌ</span>
+            <span class="tp-now-artist" id="transport-now-artist" lang="ja">火花ナナ</span>
+          </p>
+          <div class="tp-seek">
+            <span class="tp-time" id="transport-elapsed">00:00.0</span>
+            <span class="tp-seek-track">
+              <span class="tp-loop-region" id="transport-loop-region" aria-hidden="true"></span>
+              <input id="transport-seek" type="range" min="0" max="37.5" step="0.01" value="0" aria-label="SEEK" aria-valuetext="0 seconds of 37.5 seconds">
+            </span>
+            <span class="tp-time" id="transport-duration">00:37.5</span>
+          </div>
+          <button id="transport-dj-btn" class="tp-btn tp-btn--text tp-dj-toggle" type="button" aria-expanded="false" aria-controls="dj-panel">DJ</button>
+        </div>
+        <div class="tp-dj" id="dj-panel">
+          <button id="transport-loop-btn" class="tp-btn tp-btn--text" type="button" aria-pressed="false">LOOP 4 BAR</button>
+          <label class="tp-fader">
+            <span>FILTER</span>
+            <input id="dj-filter" type="range" min="-1" max="1" step="0.01" value="0" aria-valuetext="FLAT">
+            <output class="tp-fader-value" id="dj-filter-value" for="dj-filter">FLAT</output>
+          </label>
+          <label class="tp-fader">
+            <span>DELAY</span>
+            <input id="dj-delay" type="range" min="0" max="0.28" step="0.01" value="0" aria-valuetext="SEND 0%">
+            <output class="tp-fader-value" id="dj-delay-value" for="dj-delay">0%</output>
+          </label>
+          <label class="tp-fader">
+            <span>MASTER</span>
+            <input id="dj-master" type="range" min="0" max="1" step="0.01" value="0.8" aria-valuetext="80%">
+            <output class="tp-fader-value" id="dj-master-value" for="dj-master">80%</output>
+          </label>
+          <a id="transport-console-link" class="tp-btn tp-btn--text" href="#console">CONSOLE</a>
+          <button id="transport-sfx-btn" class="tp-btn tp-btn--text" type="button" aria-pressed="true">SFX ON</button>
+        </div>
+      </div>
+
+      <section class="band-section" id="console" aria-labelledby="console-title">
+        <header class="section-head">
+          <span class="section-kanji" aria-hidden="true" lang="ja">音響</span>
+          <div class="section-head-text">
+            <h2 id="console-title">SOUND CONSOLE / TELEMETRY</h2>
+            <p class="section-lead">Measured from the mastered YuE2 takes. Every value switches with the stage.</p>
+          </div>
+        </header>
+        <div class="console-grid">
+          <figure class="scope">
+            <canvas id="console-scope-canvas" width="720" height="240" role="img" aria-label="Beat grid and live scope for the active stage"></canvas>
+            <figcaption class="scope-caption">
+              <span id="console-live-state">STANDBY</span>
+              <span id="console-live-bar">BAR 00 / BEAT 0</span>
+              <span id="console-live-deck">DECK A</span>
+            </figcaption>
+          </figure>
+          <div class="console-meta">
+            <p class="console-stage">
+              <span class="chip chip--plate" id="console-stage-chip">STAGE 01</span>
+              <span id="console-stage-name">響 KYŌ / Relay Gate</span>
+            </p>
+            <dl class="meta-grid">
+              <div class="meta-cell"><dt>MEASURED BPM</dt><dd id="console-bpm-measured">…</dd></div>
+              <div class="meta-cell"><dt>PROMPT BPM</dt><dd id="console-bpm-prompt">…</dd></div>
+              <div class="meta-cell"><dt>KEY</dt><dd id="console-key">…</dd></div>
+              <div class="meta-cell"><dt>LUFS</dt><dd id="console-lufs">…</dd></div>
+              <div class="meta-cell"><dt>dBTP</dt><dd id="console-dbtp">…</dd></div>
+              <div class="meta-cell"><dt>SEED</dt><dd id="console-seed">…</dd></div>
+              <div class="meta-cell"><dt>LENGTH</dt><dd id="console-length">…</dd></div>
+              <div class="meta-cell"><dt id="console-loop-label">4 BAR LOOP</dt><dd id="console-loop">…</dd></div>
+              <div class="meta-cell"><dt>DUB DELAY</dt><dd id="console-delay-time">…</dd></div>
+            </dl>
+          </div>
+          <div class="console-score">
+            <p class="console-score-head">
+              <span class="chip" id="console-vocal-badge">…</span>
+              <span id="console-genre">…</span>
+            </p>
+            <div class="console-lyrics" id="console-lyrics" lang="ja" tabindex="0" role="region" aria-label="Lyrics or score note"></div>
+            <details class="console-prompt">
+              <summary>YuE2 STYLE PROMPT</summary>
+              <p id="console-style-prompt" lang="en"></p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="band-section" id="dossier" aria-labelledby="dossier-title">
+        <header class="section-head">
+          <span class="section-kanji" aria-hidden="true" lang="ja">出演</span>
+          <div class="section-head-text">
+            <h2 id="dossier-title">HEADLINER BANZUKE</h2>
+            <p class="section-lead">Four ink plates at four screen angles. Cue a stage to switch the poster and the deck.</p>
+          </div>
+        </header>
+        <div class="dossier-grid" id="dossier-grid"></div>
+      </section>
+
+      <section class="band-section" id="timetable" aria-labelledby="timetable-title">
+        <header class="section-head">
+          <span class="section-kanji" aria-hidden="true" lang="ja">時刻表</span>
+          <div class="section-head-text">
+            <h2 id="timetable-title" tabindex="-1">TIMETABLE / MY SCHEDULE</h2>
+            <p class="section-lead">All times JST. Saved acts stay on this device only.</p>
+          </div>
+        </header>
+        <div class="tt-toolbar">
+          <div class="pill-row" id="timetable-days" role="group" aria-label="Festival day"></div>
+          <div class="pill-row" id="timetable-stages" role="group" aria-label="Stage filter"></div>
+          <div class="pill-row">
+            <button class="pill" id="my-schedule-filter-btn" type="button" aria-pressed="false">
+              <span>MY SCHEDULE ONLY</span>
+              <span class="count-badge" id="my-schedule-count">0</span>
+            </button>
+          </div>
+        </div>
+        <p class="tt-status" id="timetable-status" role="status"></p>
+        <ol class="tt-list" id="timetable-list"></ol>
+      </section>
+
+      <section class="band-section" id="press-pass" aria-labelledby="pass-title">
+        <header class="section-head">
+          <span class="section-kanji" aria-hidden="true" lang="ja">通行証</span>
+          <div class="section-head-text">
+            <h2 id="pass-title">BACKSTAGE PRESS PASS</h2>
+            <p class="section-lead">Type a handle, pick a stage ink, then mint a PNG. Nothing leaves this page.</p>
+          </div>
+        </header>
+        <div class="pass-grid">
+          <form class="pass-form" id="pass-form" autocomplete="off">
+            <label class="field" for="pass-handle-input">
+              <span class="field-name">HANDLE</span>
+              <input id="pass-handle-input" class="field-input" type="text" value="GUEST-01" maxlength="14" inputmode="text" autocapitalize="characters" autocomplete="off" spellcheck="false" aria-describedby="pass-handle-help">
+            </label>
+            <p class="field-help" id="pass-handle-help">A to Z, 0 to 9 and hyphen. Up to 14 characters.</p>
+            <fieldset class="stamp-set">
+              <legend class="field-name">STAGE INK STAMP</legend>
+              <div class="stamp-options" id="pass-stamp-options"></div>
+            </fieldset>
+            <button id="pass-download-btn" class="cta cta--compact" type="button">
+              <span class="cta-text">
+                <span class="cta-main">MINT / EXPORT PNG</span>
+                <span class="cta-sub" id="pass-file-name">ai-ultra-musicfes-pass-GUEST-01.png</span>
+              </span>
+            </button>
+            <p class="pass-status" id="pass-status" role="status"></p>
+          </form>
+          <div class="pass-tilt" id="pass-tilt">
+            <canvas id="pass-canvas" width="1800" height="1080" role="img" aria-label="Backstage press pass preview"></canvas>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="obi" id="colophon">
+      <div class="obi-band">
+        <span class="section-kanji" aria-hidden="true" lang="ja">刷</span>
+        <div class="obi-credits">
+          <p class="obi-title">AI ULTRA MUSICFES 2026 / <span lang="ja">響鳴電脳祭</span></p>
+          <p><span lang="ja">東京湾岸特設ドーム</span> / 2026.11.23 MON / 24 TUE</p>
+          <p>MUSIC YuE2-3B local inference / SFX Earshot 48kHz / MOTION Motion Atlas MIT</p>
+          <p>TYPE Dela Gothic One, Archivo, M PLUS 1 Code under SIL OFL 1.1</p>
+          <p class="obi-note">A fictional festival built as a demonstration. No tickets are sold.</p>
+        </div>
+        <button id="colophon-open-btn-footer" class="key key--on-plate" type="button" aria-haspopup="dialog">OPEN PRINT COLOPHON</button>
+      </div>
+      <div class="tombo-row tombo-row--bottom" aria-hidden="true">
+        <span class="tombo tombo--bl"></span>
+        <span class="tombo-center"></span>
+        <span class="tombo tombo--br"></span>
+      </div>
+    </footer>
+  </div>
+
+  <dialog id="colophon-dialog" class="colophon" aria-labelledby="colophon-dialog-title">
+    <div class="colophon-sheet">
+      <header class="colophon-head">
+        <h2 id="colophon-dialog-title">PRINT COLOPHON <span lang="ja">奥付</span></h2>
+        <button id="colophon-close-btn" class="key" type="button">CLOSE</button>
+      </header>
+      <div class="colophon-body" id="colophon-body"></div>
+    </div>
+  </dialog>
+
+  <div class="follow-spot-layer" aria-hidden="true"><span class="follow-spot"></span></div>
+  <p class="sr-only" id="app-status" role="status"></p>
+  <noscript><p class="noscript-note">This poster needs JavaScript for audio, the timetable and the press pass.</p></noscript>
+
+  <script defer src="data/festival-data.js"></script>
+  <script defer src="js/audio-engine.js"></script>
+  <script defer src="js/motion-atlas-core.js"></script>
+  <script defer src="js/stage-canvas.js"></script>
+  <script defer src="js/ui-controller.js"></script>
+</body>
+</html>
